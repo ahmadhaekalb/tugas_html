@@ -1,0 +1,120 @@
+html, body {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  
+}
+
+/*.parallax {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
+
+
+header {
+  background-color: rgba(43, 99, 255, 0.7);
+  width: 100%;
+  height: 3%;
+  display: flex;
+  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  color:azure;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav > a {
+  color: #FFFFFF;
+  margin: 5px 10px 5px 10px;
+}
+
+.name-status {
+  margin-top: 50px;
+  padding-top: 100px;
+  background-color: rgba(43, 99, 255, 0.7);
+  padding: 40px;
+  border-radius: 8px;
+  border: 2px solid rgba(45,105, 255,1);
+  
+  width: 65%;
+  color:white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.name-status > p {
+  padding-top: 5px;
+}
+
+.name-status > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 5px solid #ddd;
+}
+
+.wraper {
+  display: flex;
+  justify-content: center;
+  gap : 15px;
+  padding-bottom: 40px;
+}
+
+.skill {
+  border: 1px solid rgba(45,105, 255,1);
+  border-radius: 8px;
+  background-color: rgba(43, 99, 255, 0.7);
+  height: auto;
+  padding: 20px 10px;
+  width: 300px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.bg-1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.overview {
+  background-color: rgba(88, 133, 255, 0.7);
+}
+.overview > h2{
+  padding: 100px 0px 5px 0px;
+}
+
+.overview > p {
+  padding: 1px 0px 100px 0px;
+}
+
+.about{
+  padding: 50px;
+}
+ul {
+  padding: 0;
+  margin-top: 25px;
+}
+
+footer{
+  background-color: rgba(88, 133, 255, 0.7);
+  text-align: center;
+  font-weight: 700;
+  color:#FFFFFF;
+  padding : 10px 0px 10px 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
